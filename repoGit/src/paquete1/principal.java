@@ -5,8 +5,8 @@ public class principal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println("mi bombo");
-		System.out.println("macarron");
+		System.out.println("Prueba Github");
+		
 		
 		
 		
