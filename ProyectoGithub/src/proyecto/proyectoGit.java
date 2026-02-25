@@ -9,7 +9,7 @@ public class proyectoGit {
 
 		Scanner teclado=new Scanner(System.in);
 		
-		double ladoA,ladoB,hipotenusa;
+		double ladoA,ladoB,hipotenusa,perimetro;
 		
 		System.out.println("Escribe Lado A: ");
 		ladoA=teclado.nextDouble();
@@ -20,6 +20,12 @@ public class proyectoGit {
 		
 		
 		System.out.println("La hipotenusa es: "+hipotenusa);
+		
+		perimetro=ladoA+ladoB+hipotenusa;
+		
+		System.out.println("La hipotenusa es" + hipotenusa);
+		
+		System.out.println("El perimetro es" + perimetro);
 		
 		
 	teclado.close();	
