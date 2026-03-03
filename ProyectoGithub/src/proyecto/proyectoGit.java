@@ -9,7 +9,7 @@ public class proyectoGit {
 
 		Scanner teclado=new Scanner(System.in);
 		
-		double ladoA,ladoB,hipotenusa,perimetro;
+		double ladoA,ladoB,hipotenusa,perimetro, area;
 		
 		System.out.println("Escribe Lado A: ");
 		ladoA=teclado.nextDouble();
@@ -27,8 +27,15 @@ public class proyectoGit {
 		
 		System.out.println("El perimetro es" + perimetro);
 		
+		// CÁLCULO DEL ÁREA DEL TRIÁNGULO RECTÁNGULO
+			
+		area= (ladoA*ladoB)/2;
+		
+		System.out.println("El área es: "+area+" u");
+		
 		
 	teclado.close();	
 	}
 
 }
+ 
