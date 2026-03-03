@@ -39,6 +39,12 @@ public class proyectoGit {
 		hipotenusa=	triangulo.hipotenusa();
 		System.out.println("La hipotenusa es: "+hipotenusa);
 		
+		perimetro=ladoA+ladoB+hipotenusa;
+		
+		System.out.println("La hipotenusa es" + hipotenusa);
+		
+		System.out.println("El perimetro es" + perimetro);
+		
 		
 	teclado.close();	
 	}
