@@ -33,6 +33,12 @@ public class proyectoGit {
 		
 		System.out.println("El área es: "+area+" u");
 		
+		if (ladoA <= 0 || ladoB <= 0) {
+		    System.out.println("Los lados deben ser mayores que 0");
+		    return;
+		}
+		
+		
 		
 	teclado.close();	
 	}
